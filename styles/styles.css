@@ -17,8 +17,9 @@ body {
 /* Nav releated styles */
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 
 .nav-title {
@@ -40,4 +41,19 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+
+/* Header releated styles */
+header {
+  background-color: #fff8f3;
+}
+
+.banner {
+  padding: 30px 30px 30px 130px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner img {
+  width: 500px;
 }
